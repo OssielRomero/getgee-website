@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import './../App.css';
+import Button from 'react-bootstrap/Button'
 
-class Footer extends Component {
+class Contact extends Component {
   render() {
     return (
       
         <div className="App-contact">
 
-        <h1>Contact Us</h1>
+        <h2>Contact Us</h2>
           
          <form
           name="contact"
+          action="https://formspree.io/ossiel@riseup.net" 
+          method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
@@ -42,7 +45,13 @@ class Footer extends Component {
             </div>
           </div>
           <div className="field">
-            <button className="button is-link" type="submit">Send</button>
+            <Button 
+            variant="danger" 
+            size="lg" 
+            className="button is-link"
+            type="submit">
+              Send
+            </Button>
           </div>
         </form>
 
@@ -52,4 +61,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default Contact;
