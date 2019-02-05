@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       
         <footer className="App-footer">
-          <p>Copyright © 2019. Getgee</p>
+          <p>Copyright © 2019. Nayelo</p>
         </footer>
       
     );

@@ -6,6 +6,7 @@ import Whatdoes from './components/whatdoes';
 import Whatcan from './components/whatcan';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import ScrollUpButton from "react-scroll-up-button"; 
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         	<div className="parallax"></div>
         	<Contact/>
         <Footer/>
+          <ScrollUpButton />
 
 
 

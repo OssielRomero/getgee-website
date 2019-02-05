@@ -20,7 +20,7 @@ class Header extends Component {
           <Button 
             variant="danger"
             className="button"         
-            href="https://reactjs.org"
+            href="https://www.paypal.com/donate/?token=CBuPOe8e7bjuKhcpMkQKQUcbAyPGk7UA8A448IwN6XDd4ZUl6ANczelYdLh6OrpUg79IZG&country.x=CA&locale.x=CA"
             target="_blank"
             rel="noopener noreferrer"
           >
