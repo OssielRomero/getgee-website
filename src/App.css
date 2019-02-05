@@ -8,7 +8,7 @@
 
 .parallax {
   padding: 2%;
-  min-height: 50vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +18,10 @@
   line-height: normal;
 }
 
+.container {
+  margin-left:3%;
+  margin-right:3%;
+}
 
 .App-navbar {
   padding: 2%;
@@ -92,6 +96,7 @@
   padding: 1%;
   background: #FFFF;
   min-height: 70vh;
+   margin-bottom: -5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,13 +110,14 @@
 
 .App-footer p{
   background: #FFFF;
+   margin-bottom: -5vh;
   text-align: center;
   line-height: 16px;
   font-size: 15px;  
   font-weight: 300;
   letter-spacing: .3px;
   color: black;
-  padding: 1%;
+ 
 }
 
 

@@ -6,6 +6,7 @@ class Whatcan extends Component {
     return (
       
         <div className="App-whatcan">
+          <div className="container">
          
           <h1>
           What can G be used for?
@@ -64,14 +65,8 @@ Instead of a closed circle of academia in which paper citations can be reflectio
 
         
           
-          <button
-            className="button"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read More..
-          </button>
+         
+          </div>
         </div>
       
     );

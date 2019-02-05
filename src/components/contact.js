@@ -7,7 +7,7 @@ class Footer extends Component {
       
         <div className="App-contact">
 
-        <h2>Contact Us</h2>
+        <h1>Contact Us</h1>
           
          <form
           name="contact"

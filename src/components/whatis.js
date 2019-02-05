@@ -6,7 +6,8 @@ class Whatis extends Component {
     return (
       
         <div className="App-whatis">
-         
+
+          <div className="container">
           <h1>
           What is G?
           </h1>
@@ -24,14 +25,8 @@ class Whatis extends Component {
            </iframe>
 
           
-          <button
-            className="button"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read More..
-          </button>
+         
+          </div>
         </div>
       
     );

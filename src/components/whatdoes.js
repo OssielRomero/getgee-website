@@ -7,6 +7,7 @@ class Whatdoes extends Component {
     return (
       
         <div className="App-whatdoes">
+          <div className="container">
          
           <h1>
           What does G do?
@@ -21,14 +22,8 @@ class Whatdoes extends Component {
           <img src={image1} className="App-image" alt="logo" />
 
           
-          <button
-            className="button"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read More..
-          </button>
+         
+          </div>
         </div>
       
     );
