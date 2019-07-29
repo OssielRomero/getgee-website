@@ -20,7 +20,7 @@ class Header extends Component {
           <Button 
             variant="danger"
             className="button"         
-            href="https://www.paypal.com/donate/?token=CBuPOe8e7bjuKhcpMkQKQUcbAyPGk7UA8A448IwN6XDd4ZUl6ANczelYdLh6OrpUg79IZG&country.x=CA&locale.x=CA"
+            href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=heathermarsh%40riseup%2enet&lc=CA&item_name=Heather%20Marsh&currency_code=CAD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"
             target="_blank"
             rel="noopener noreferrer"
           >
